@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercice 2</title>
+  </head>
+  <body></body>
+  <script>
+    function afficherMsg(age) {
+      if (age >= 1 && age <= 17) alert("vous n'etes pas encore majeur.");
+      else if (age >= 18 && age <= 40)
+        alert("vous etes majeur mais pas encore senior.");
+      else if (age >= 50 && age <= 59)
+        alert("vous etes senior mais pas encore retraite.");
+      else if (age >= 60 && age <= 120)
+        alert("vous etes retraite, profitez de votre temps libre !");
+    }
+    afficherMsg(prompt("entrer votre age"));
+  </script>
+</html>
